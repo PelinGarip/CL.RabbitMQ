@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-CL.RabbitMQ.Consumer-C8C0B3D7-AEB2-422A-8222-FBC098062C2F</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CL.RabbitMQ.Core\CL.RabbitMQ.Core.csproj" />
+  </ItemGroup>
+</Project>
